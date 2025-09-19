@@ -1,0 +1,87 @@
+/* [project]/app/globals.css [app-client] (css) */
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+:root {
+  --background: #fff;
+  --foreground: #1d1d1f;
+  --text-primary: #1d1d1f;
+  --text-secondary: #6e6e73;
+  --border: #e0e0e0;
+  --blue: #0070f3;
+}
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #fafafa;
+  --text-primary: #fafafa;
+  --text-secondary: #a3a3a3;
+  --border: #1f1f1f;
+  --blue: #0070f3;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+@apply text-5xl font-bold tracking-tight;
+
+.text-display {
+  color: var(--foreground);
+}
+
+@apply text-4xl font-bold tracking-tight;
+
+.page-title {
+  color: var(--foreground);
+}
+
+@apply text-2xl font-bold italic tracking-tight;
+
+.text-brand {
+  color: var(--foreground);
+}
+
+@apply text-2xl font-bold tracking-tight;
+
+.section-title {
+  color: var(--foreground);
+}
+
+@apply text-xl font-semibold;
+
+.text-headline {
+  color: var(--foreground);
+}
+
+@apply text-base font-semibold;
+
+.text-button-lg {
+  color: var(--foreground);
+}
+
+@apply text-base;
+
+.text-primary {
+  color: var(--foreground);
+}
+
+@apply text-base;
+
+.text-nav {
+  color: var(--text-secondary);
+}
+
+@apply text-sm;
+
+.text-caption {
+  color: var(--text-secondary);
+}
+
+@apply text-xs;
+
+/*# sourceMappingURL=app_globals_css_bad6b30c._.single.css.map*/
